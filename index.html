@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Detective</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="content-container">
+            <div class="heading">
+                <h4> GitHub Detective</h4>
+                <div class="dark-mode">
+                    <p>DARK</p>
+                    <i class="fa-solid fa-circle-half-stroke"></i>
+                </div>
+            </div>
+            <form id="inputField">
+                <i class="fa-solid fa-magnifying-glass" id="search"></i>
+                <input type="text" id="inputUserIs"  placeholder="Enter a Github username....">
+                <button type="submit" id="submitBtn">Search</button>
+            </form>
+            <div class="details-container">
+                <div class="name">
+                    <img src="" alt="" id="userIcon" width="100px">
+                    <h4 id="name"></h4>
+                    <p id="uderId"></p>
+                    <p id="joinDate"></p>
+                    <p id="status"></p>
+                </div>
+                <div class="followers-box">
+                    <div class="repo">
+                        <p>Repos</p>
+                        <h4 id="repo"></h4>
+                    </div>
+                    <div class="followers">
+                        <p>Followers</p>
+                        <h4 id="followers"></h4>
+                    </div>
+                    <div class="following">
+                        <p>Following</p>
+                        <h4 id="following"></h4>
+                    </div>
+                </div>
+                <div class="address-box">
+                    <div class="location">
+                        <p id="location">Not Available</p>
+                        <p id="email">Not Available</p>
+                    </div>
+                    <div class="social">
+                        <p id="twitter">Not Available</p>
+                        <p id="company">Not Available</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js" integrity="sha512-GWzVrcGlo0TxTRvz9ttioyYJ+Wwk9Ck0G81D+eO63BaqHaJ3YZX9wuqjwgfcV/MrB2PhaVX9DkYVhbFpStnqpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+
+</html>
